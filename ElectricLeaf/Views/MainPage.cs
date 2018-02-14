@@ -15,7 +15,7 @@ namespace ElectricLeaf
                 case Device.iOS:
                     itemsPage = new NavigationPage(new ItemsPage())
                     {
-                        Title = "Browse"
+                        Title = "Electric Leaf"
                     };
 
                     aboutPage = new NavigationPage(new AboutPage())
@@ -28,7 +28,7 @@ namespace ElectricLeaf
                 default:
                     itemsPage = new ItemsPage()
                     {
-                        Title = "Browse"
+                        Title = "Electric Leaf"
                     };
 
                     aboutPage = new AboutPage()
